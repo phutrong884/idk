@@ -1,36 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="buoi10.css">
 </head>
+
 <body>
-    <div class="tieude">
+
+    <div class="ka" id="ka">
+
+    </div>
+    <div class="ni" id="id">
+        <div class="de">
+            <div class="ds">
+                <div class="ya">Cart (0)</div>
+                <div class="mi">Spend $50 more for free shipping!</div>
+            </div>
+            <div style="height: 60%;">
+                <div class="oi" onclick="empty()"><span class="sh" id="koo">v</span></div>
+            </div>
+        </div>
+        <div class="t3">
+            <div class="t4">Your cart is empty</div>
+            <div class="GetStarted">Shop Oats</div>
+        </div>
+    </div>
+
+    <div class="tieude" id="tieude">
         <div class="tieudetrai">
-            <div class="t">Try Now</div>
-            <div class="t">Our science</div>
+            <div class="t t5" id="Menu" onclick="toogleMenu()">Menu</div>
+            <div class="t t2">Try Now</div>
+            <div class="t t2">Our science</div>
         </div>
-        <div>
-            <img class="QUITENICE" src="Screenshot_2025-07-23_at_08.51.30.png" alt="">
-        </div>
+            <img class="QUITENICE q1" id="q1" src="Screenshot_2025-07-23_at_08.51.30.png" alt="">
+            <img class="QUITENICE q2" id="q2" src="Screenshot 2025-09-08 203447.png" alt="">
         <div class="tieudephai">
-            <div class="t">Account</div>
-            <div class="t">Cart</div>
+            <div class="t t2">Account</div>
+            <div class="t" onclick="empty()">Cart</div>
         </div>
+    </div>
+
+    <div class="noo" id="noo">
+        <div class="text">Try Now</div>
+        <div class="text">Our Science</div>
+        <div class="text">Account</div>
+        <div class="overthink"><img class="leave" src="leave.png" alt=""></div>
     </div>
 
     <div class="dc">
         <div class="d">
-        <div class="gioithieu">The Easy Breakfast <br>for Gut Health</div>
-        <div class="GetStarted">Get Started</div>
-    </div>
+            <div class="gioithieu">The Easy Breakfast <br>for Gut Health</div>
+            <div class="GetStarted">Get Started</div>
+        </div>
     </div>
 
     <div class="c">
         <div class="grab">
-            The fiber-rich <span>🌿</span>protein-fortified <br> 
+            The fiber-rich <span>🌿</span>protein-fortified <br>
             <span>🍃</span>prebiotic oatmeal that supports <br>
             <span>🍲</span> digestion, regularity, and gut <br>
             health <span>🌸</span>
@@ -64,19 +93,19 @@
             QUITE NICE CAN
         </div>
         <div class="v">
-            <div class="b">Supportyourmicrobiome</div>
+            <div class="b">Support your microbiome</div>
             <div class="i">
                 <div class="arrow">→</div>
             </div>
         </div>
         <div class="v shi">
-            <div class="b">ImproveDigestiveregularity</div>
+            <div class="b">Improve Digestive regularity</div>
             <div class="i">
                 <div class="arrow">→</div>
             </div>
         </div>
         <div class="v ma">
-            <div class="b">ReduceCravingsNaturally</div>
+            <div class="b">Reduce Cravings Naturally</div>
             <div class="i">
                 <div class="arrow">→</div>
             </div>
@@ -89,7 +118,8 @@
         <div class="khungphai">
             <div>
                 <div class="fu">The fiber of our being</div>
-                <div class="an">Resistant starch fiber is a naturally-occurring prebiotic that’s been part of the human diet for over 10,000 years.</div>
+                <div class="an">Resistant starch fiber is a naturally-occurring prebiotic that’s been part of the human
+                    diet for over 10,000 years.</div>
                 <div class="hs">
                     <div class="ourscience">Our science</div>
                     <div class="ol">→</div>
@@ -108,7 +138,8 @@
         <div class="tg">
             <div class="rou">
                 <div class="th">
-                    <img class="m1" src="StockWebsite/pdp-sachet-cinnamon_2x_e767c00d-c634-4096-956e-0475bd84fd87.webp" alt="">
+                    <img class="m1" src="StockWebsite/pdp-sachet-cinnamon_2x_e767c00d-c634-4096-956e-0475bd84fd87.webp"
+                        alt="">
                     <img class="tech" src="StockWebsite/quitenice-cinnamon-hover.webp" alt="">
                 </div>
                 <div class="box">Cinnamon & Sugar</div>
@@ -117,7 +148,8 @@
             <div class="rou">
                 <div class="th">
                     <img class="tech" src="StockWebsite/quitenice-cacao-hover.webp" alt="">
-                    <img class="m1" src="StockWebsite/pdp-sachet-cacao_2x_2x_2x_c3c7e3ff-b06a-45f1-bdd5-ff4bf163ba76.webp" alt="">
+                    <img class="m1"
+                        src="StockWebsite/pdp-sachet-cacao_2x_2x_2x_c3c7e3ff-b06a-45f1-bdd5-ff4bf163ba76.webp" alt="">
                 </div>
                 <div class="box">Cacao & sea salt</div>
             </div>
@@ -125,7 +157,8 @@
             <div class="rou">
                 <div class="th">
                     <img class="tech" src="StockWebsite/quitenice-matcha-hover.webp" alt="">
-                    <img class="m1" src="StockWebsite/pdp-sachet-matcha_2x_2x_437519b2-987d-4ceb-b9cf-72632c6c33db.webp" alt="">
+                    <img class="m1" src="StockWebsite/pdp-sachet-matcha_2x_2x_437519b2-987d-4ceb-b9cf-72632c6c33db.webp"
+                        alt="">
                 </div>
                 <div class="box">Matcha & Vanilla</div>
             </div>
@@ -133,41 +166,104 @@
             <div class="rou">
                 <div class="th">
                     <img class="tech" src="StockWebsite/quitenice-turmeric-hover.webp" alt="">
-                    <img class="m1" src="StockWebsite/pdp-sachet-turmeric_2x_2x_0af16431-8c96-48bb-9d5c-f4ec28db7f17.webp" alt="">
+                    <img class="m1"
+                        src="StockWebsite/pdp-sachet-turmeric_2x_2x_0af16431-8c96-48bb-9d5c-f4ec28db7f17.webp" alt="">
                 </div>
                 <div class="box">Turmeric & Cardamom</div>
             </div>
         </div>
     </div>
-    
+
     <div class="l12">
         <img src="blossom.png" alt="">
         <div class="ily">We're Picky</div>
         <div class="u">
-            <div class="nothing"><img src="StockWebsite/QN-Picky-Rounded_2x_1590d8b0-e56b-4665-81a1-6aae6d056f3b.webp" alt=""></div>
+            <div class="nothing"><img src="StockWebsite/QN-Picky-Rounded_2x_1590d8b0-e56b-4665-81a1-6aae6d056f3b.webp"
+                    alt=""></div>
             <div class="text">
                 <div class="no">
                     <div class="eror1e1">Low-FODMAP</div>
-                    <div class="h5"><div class="plus">+</div></div>
+                    <div class="h5">
+                        <div class="plus">+</div>
+                    </div>
                 </div>
                 <div class="no">
                     <div class="eror1e1">Gluten-Free</div>
-                    <div class="h5"><div class="plus">+</div></div> 
+                    <div class="h5">
+                        <div class="plus">+</div>
+                    </div>
                 </div>
                 <div class="no">
                     <div class="eror1e1">Nut Free</div>
-                    <div class="h5"><div class="plus">+</div></div>
+                    <div class="h5">
+                        <div class="plus">+</div>
+                    </div>
                 </div>
                 <div class="no">
                     <div class="eror1e1"> No Fake or Alternative Sweeteners</div>
-                    <div class="h5"><div class="plus">+</div></div>
+                    <div class="h5">
+                        <div class="plus">+</div>
+                    </div>
                 </div>
                 <div class="no">
                     <div class="eror1e1">Glyphosate-Free Oats</div>
-                    <div class="h5"><div class="plus">+</div></div>
+                    <div class="h5">
+                        <div class="plus">+</div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <div class="a174">
+        <div class="a17">
+            <div class="gutfeelings">Gut Feelings</div>
+            <div class="arrow2">
+                <div class="arrow3">←</div>
+                <div class="arrow3">→</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function empty() {
+            if (document.getElementById("koo").textContent == "v") {
+                document.getElementById("ka").style.zIndex = "10";
+                document.getElementById("id").style.right = "30px";
+                document.getElementById("koo").innerHTML = "x";
+                document.body.style.height = "100vh";
+                document.body.style.overflow = "hidden";
+            }
+            else {
+                document.getElementById("ka").style.zIndex = "-10";
+                document.getElementById("id").style.right = "-450px";
+                document.getElementById("koo").innerHTML = "v";
+                document.body.style.height = "fit-content";
+                document.body.style.overflow = "auto";
+                document.body.style.overflowX = "hidden";
+            }
+        }
+
+        function toogleMenu() {
+            if (document.getElementById("Menu").textContent == "Menu" ) {
+                document.getElementById("tieude").style.backgroundColor = "#2F4231"
+                document.getElementById("q1").style.display = "none"
+                document.getElementById("q2").style.display = "inline-block"
+                document.getElementById("tieude").style.color = "#B2D99A"
+                document.getElementById("noo").style.left = "0%"
+                document.getElementById("Menu").innerHTML = "Close"
+            }
+            else{
+                document.getElementById("tieude").style.backgroundColor = "#FFFAEF"
+                document.getElementById("q1").style.display = "inline-block"
+                document.getElementById("q2").style.display = "none"
+                document.getElementById("tieude").style.color = "#1A5908"
+                document.getElementById("noo").style.left = "100%"
+                document.getElementById("Menu").innerHTML = "Menu"
+            }
+        }
+
+    </script>
 </body>
+
 </html>
